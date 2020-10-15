@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+    background-image: url(./images/Grey-Wooden-Texture-Wallpaper-42298.jpg);
+}
+*{
+    box-sizing: border-box;
+}
+#navhere{
+    padding: 0px;
+    margin:0px;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    position:sticky;
+}
+
+    
+nav ul{
+    list-style: none;
+    margin:0;
+    padding-bottom:10px;
+    
+}
+nav ul a{
+float:left;
+margin:0;
+margin-left:20px;
+text-decoration: none;
+ color:#ffcb00;
+opacity: 0.86;
+
+ 
+
+}
+nav ul a::after{
+    clear:both;
+}
+nav ul a:hover{
+    background-color:#8d93ab;
+   color:white;
+   padding:2px;
+   opacity :1;
+  
+}
+
+  @media screen and (min-width:700px)
+  {
+    #mySidenav,#spanOpen{
+        display:none;
+    }
+  }
+  @media screen and (max-width:699px)
+  {
+    #navhere{
+        display:none;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      #spanOpen{
+        font-size:30px;
+        cursor:pointer;
+        color:white;
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.5s;
+      }
+      
+      .sidenav a:hover {
+        background-color:#8d93ab;
+        color:#ffcb00;
+   padding:2px;
+   opacity :1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      #afterNav {
+        transition:margin-left .5s;
+        
+      }
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .row1{
+    width:80%;
+    margin-left: 100px;
+    
+  }
+  .col1{
+      float:left;
+      margin-right: 120px;
+      
+      
+
+  }
+ 
+  .col1::after{
+      clear:both;
+  }
+  div h1,div h4,div h6{
+      
+    color:#ffcb00;
+  }
+ img{
+     width:40%;
+     border:solid gray 20px;
+     transition:0.5s;
+ }
+ img:hover{
+    border:solid gray 4px;
+    transition:0.5s;
+ }
+  h1,h4,h6{
+      margin:2px;
+      
+  }
+h6{
+    text-align: right;
+}
+
+
+  
+

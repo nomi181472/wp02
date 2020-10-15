@@ -1,0 +1,25 @@
+.index{
+    background-image: url(./images/home.png);
+    height: 50em;
+    background-repeat: no-repeat;
+ }
+ .resume{
+    background-image: url(./images/resume.png);
+    height: 50em;
+    background-repeat: no-repeat;
+ }
+ .introduction{
+    background-image: url(./images/intro.png);
+    height: 50em;
+    background-repeat: no-repeat;
+ }
+ .proposal{
+    background-image: url(./images/projectproposal.png);
+    height: 50em;
+    background-repeat: no-repeat;
+ }
+ .rd{
+    background-image: url(./images/rd.png);
+    height: 50em;
+    background-repeat: no-repeat;
+ }
